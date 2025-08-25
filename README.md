@@ -10,7 +10,7 @@ Implement fetching search results data from the following API and render a list 
 
 curl -i -X POST -H 'Content-Type: application/json' -d '{"from": 0, "size": 20}' https://api.marketplace.ritchiebros.com/marketplace-listings-service/v1/api/search
 
-Stretch goal: If you have time implement paginating the results so the user sees more results as they scroll (the from and size parameters can be used to accomplish this).
+Stretch goal: If you have time implement paginating the results so the user sees more results as they scroll.
 
 ## Implementation
 
