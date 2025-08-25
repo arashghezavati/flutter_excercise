@@ -11,3 +11,21 @@ Implement fetching search results data from the following API and render a list 
 curl -i -X POST -H 'Content-Type: application/json' -d '{"from": 0, "size": 20}' https://api.marketplace.ritchiebros.com/marketplace-listings-service/v1/api/search
 
 Stretch goal: If you have time implement paginating the results so the user sees more results as they scroll (the from and size parameters can be used to accomplish this).
+
+## Implementation
+
+This project implements the required features:
+
+- Fetches auction items from the Ritchie Bros API
+- Displays items in a list with all required information
+- Shows properly formatted location (City, State, Country for USA; City, Country for other countries)
+- Displays formatted event dates
+- Provides detailed view when tapping on an item
+
+### Screenshots
+
+#### List View
+![List View](screenshots/list_view.png)
+
+#### Detail View
+![Detail View](screenshots/detail_view.png)
